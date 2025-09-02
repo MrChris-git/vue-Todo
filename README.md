@@ -1,33 +1,33 @@
-# Todo
+# Vue Todo App
 
-This template should help get you started developing with Vue 3 in Vite.
+This is a simple Todo application built with **Vue.js**.  
+The goal of this project is to learn and practice Vue fundamentals such as:
 
-## Recommended IDE Setup
+- Vue components
+- Props & events
+- Reactive state
+- Conditional rendering
+- List rendering
+- Basic styling with CSS / Tailwind (if used)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Features
+- Add new tasks
+- Mark tasks as complete
+- Delete tasks
+- Filter tasks (optional if implemented)
 
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
+## Tech Stack
+- [Vue 3](https://vuejs.org/) (Composition API / Options API)
+- Vite (for fast development & build)
+- JavaScript / TypeScript (optional, depending on your setup)
 
 ## Project Setup
-
-```sh
+```bash
+# install dependencies
 npm install
-```
 
-### Compile and Hot-Reload for Development
-
-```sh
+# run development server
 npm run dev
-```
 
-### Type-Check, Compile and Minify for Production
-
-```sh
+# build for production
 npm run build
-```
